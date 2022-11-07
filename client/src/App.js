@@ -20,15 +20,17 @@ function App() {
     <div className="App">
       <div className="Login">
         <h2>Average fuel consumption</h2>
+        <span>Amount of fuel filled</span>
         <input
           type="number"
           placeholder="Fuel amount"
           id="amount"
           className="field"
         ></input>
+        <span>Distance</span>
         <input
           type="number"
-          placeholder="distance"
+          placeholder="Distance"
           id="distance"
           className="field"
         ></input>
